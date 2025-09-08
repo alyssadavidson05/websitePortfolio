@@ -1,0 +1,12 @@
+{
+  "name": "alyssa-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx tailwindcss@3.4.10 -i ./src/input.css -o ./public/styles.css --watch",
+    "build": "npx tailwindcss@3.4.10 -i ./src/input.css -o ./public/styles.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
